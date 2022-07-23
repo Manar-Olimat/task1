@@ -1,7 +1,8 @@
 
 body{
-  background-color: #F7D9D9; 
-}
+/*  background-color: #D3CEDF; 
+*/
+background-color: #D3E0DC;}
 .headers:hover{
     color: #F25287;
 }
@@ -11,7 +12,7 @@ a{
 }
 header{
     position: relative;
-    background-color: #DDDDDD;
+    background-color: #F9F3F3;
 box-sizing: border-box;
 }
 .navBar{
@@ -41,7 +42,7 @@ header button{
 
 }
 .watermelon{
-    background-color: #F7D9D9;
+    background-color: #9CB4CC;
     border-radius: 9%;
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -60,8 +61,8 @@ p{
 #mainHeader{
     position: relative;
     background-color: #F9F3F3;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     }
 #homeImg{
     margin-top: 20px;
@@ -87,6 +88,8 @@ p{
     margin-bottom: 50px;
     background-color: #F9F3F3;
     box-sizing: border-box;
+    bottom: 25px;
+    
     
 }
 .blur-bg{
@@ -119,19 +122,152 @@ p{
 
 .midPage{
     position: relative;
-
+    background-color: #F9F3F3;
+    text-align: right;
+bottom: 50px;
+margin-top: 50px;
 }
 .midPage img{
     object-fit: cover;
-    width: 100%;
-    height: 100%;
+    width: 75%;
+    height: 75%;
 }
 .midPage h1{
     text-align: justify;
-    font-size: xx-large;
+    font-size: 70px;
     font-weight: bold;
     position: absolute;
-    left: 50px;
-    top: 50px;
+   top: 150px;
+   left: 75px;
+    background-blend-mode: lighten;
+    background-color: #F7D9D9;
+   
+   
+}
 
+#ourProduct{
+position: relative;
+bottom: 50px;
+top: 20px;
+background-color: #F9F3F3;
+white-space: pre-line;
+
+box-sizing: border-box;
+
+}
+
+#clarena{
+    position: absolute;
+    right: 90px;
+    top: 20px;
+}
+#clarena h4{
+    font-size: 28px;
+    font-weight: bold;
+}
+#clarenaUpper img{
+    width:725px;
+    height: 600px;
+    left: 20px;
+}
+#natureBox h4{
+    font-size: 28px;
+    font-weight: bold;
+}
+#natureBox{
+   
+    white-space: pre-line;
+margin-left: 50px;
+margin-top: 20px;
+margin-bottom: 50px;
+}
+
+#natureBoxUpper img{
+    width:725px;
+    height: 600px;
+    position: absolute;
+    padding-top: 50px;
+    right: 15px;
+    bottom:  0px;
+
+}
+
+#testimonials{
+    position: relative;
+text-align: center;
+
+background-color: #F9F3F3;
+margin-top: 50px;
+margin-bottom: 25px;
+box-sizing: border-box;
+
+}
+
+#testimonials h3{
+    font-size: 30px;
+}
+.feedback-name
+{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 25px;
+}
+
+#outerBlog{
+    position: relative;
+    background-color: #F9F3F3;
+   
+    text-align: center;
+    box-sizing: border-box;
+   
+}
+
+#outerBlog h2{
+    font-size: 30px;
+ 
+}
+#outerBlog img{
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+}
+.innerBlog{
+    display: inline-block;
+    position: relative;
+    left: -27px;
+    margin-left: 30px;
+}
+.inlineBlog{
+    font-size: 18px;
+}
+#news{
+    position: relative;
+    top: 15px;
+    background-color: #F9F3F3;
+   
+}
+#news h1{
+    font-size: 35px;
+    display: inline-block;
+}
+#news form{
+    display: inline-block;
+}
+footer{
+    position: relative;
+    background-color: #F9F3F3;
+    top: 30px;
+    bottom: 0px;
+}
+footer .logo{
+position: relative;
+top: 20px;
+}
+#language{
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    display: inline-block;
 }
